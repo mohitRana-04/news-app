@@ -27,7 +27,7 @@ function Navbar(props) {
             Log out
           </button>
         ) : (
-          <Link Link to="/signin">
+          <Link to="/signin">
             <button className="bg-transparent font-semibold hover:text-white  h-7 mt-1 ml-1 mr-1 bg-slate-800 ">
               Sign in
             </button>

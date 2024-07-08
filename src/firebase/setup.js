@@ -2,6 +2,8 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
+const api = process.env.REACT_APP_API_KEY;
+
 const firebaseConfig = {
   apiKey: "AIzaSyDCuMxh5-wTwPLsV_BOu5hNXQQYmRtxaM8",
   authDomain: "bbc-clone-cd7fd.firebaseapp.com",
