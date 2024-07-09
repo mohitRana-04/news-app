@@ -3,7 +3,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDCuMxh5-wTwPLsV_BOu5hNXQQYmRtxaM8",
+  apiKey: `${process.env.REACT_APP_API_KEY}`,
   authDomain: "bbc-clone-cd7fd.firebaseapp.com",
   projectId: "bbc-clone-cd7fd",
   storageBucket: "bbc-clone-cd7fd.appspot.com",
